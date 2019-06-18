@@ -6,11 +6,11 @@ La ricerca principalmente potrà essere effettuata tramite i seguenti campi: ind
 
 ### Prerequisites
 
-Python > 3.0
+* Python > 3.0
 
-Talend Open Studio
+* Talend Open Studio
 
-MongoDB 3.0
+* MongoDB 3.0
 
 ### Ipython Notebook
 
@@ -18,7 +18,7 @@ Nel progetto sono presenti i file .ipynb relativi alla fase di scraping per il s
 
 I due notebook hanno come output due file .csv contenenti gli annunci trovati e le informazioni relative alle pagine di dettaglio.
 
-### Taled
+### Talend
 
 All'interno della directory Talend sono presenti i file di configurazione relativi ai job Talend utilizzati per la fase di ETL dei dati.
 
