@@ -1,4 +1,4 @@
-# RICERCA ANNUNCI ONLINE
+# Ricerca annunci online
 
 Il progetto ha lo scopo di fornire una soluzione architetturale che consenta di analizzare gli annunci di compravendita tra privati presenti su uno o più siti online. 
 
