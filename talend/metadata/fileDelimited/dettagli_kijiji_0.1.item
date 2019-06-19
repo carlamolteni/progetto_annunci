@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_733-UI94EemKLf-NU18u_Q" name="dettagli_kijiji" id="_733XQI94EemKLf-NU18u_Q" dataPackage="_733-UY94EemKLf-NU18u_Q _pNrQIJAUEemgtMvNtbebZQ" Server="Localhost 127.0.0.1" FilePath="/home/master/carla/progetto_bigdata/kijiji_dettagli.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_733-UY94EemKLf-NU18u_Q" name="default" dataManager="_733-UI94EemKLf-NU18u_Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_733-Uo94EemKLf-NU18u_Q" id="_2wfNwI94EemKLf-NU18u_Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCujcJAVEemgtMvNtbebZQ" label="Column0" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCujcZAVEemgtMvNtbebZQ" label="Comune" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCujcpAVEemgtMvNtbebZQ" label="Marca" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCujc5AVEemgtMvNtbebZQ" label="Sito_Web" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCujdJAVEemgtMvNtbebZQ" label="Tipologia" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCujdZAVEemgtMvNtbebZQ" label="descrizione" length="1261" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCujdpAVEemgtMvNtbebZQ" label="id" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCujd5AVEemgtMvNtbebZQ" label="lat" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCujeJAVEemgtMvNtbebZQ" label="lon" length="9" precision="8" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCujeZAVEemgtMvNtbebZQ" label="nome_venditore" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCujepAVEemgtMvNtbebZQ" label="phone" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCuje5AVEemgtMvNtbebZQ" label="userId" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MCujfJAVEemgtMvNtbebZQ" label="email" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_pNrQIJAUEemgtMvNtbebZQ" name="default" dataManager="_733-UI94EemKLf-NU18u_Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_pNrQIZAUEemgtMvNtbebZQ" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_oJaWwJAUEemgtMvNtbebZQ" label="metadata1">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQIpAUEemgtMvNtbebZQ" label="Column0" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQI5AUEemgtMvNtbebZQ" label="Comune" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQJJAUEemgtMvNtbebZQ" label="Marca" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQJZAUEemgtMvNtbebZQ" label="Sito_Web" length="30" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQJpAUEemgtMvNtbebZQ" label="Tipologia" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQJ5AUEemgtMvNtbebZQ" label="descrizione" length="1261" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQKJAUEemgtMvNtbebZQ" label="id" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQKZAUEemgtMvNtbebZQ" label="lat" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQKpAUEemgtMvNtbebZQ" label="lon" length="9" precision="8" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQK5AUEemgtMvNtbebZQ" label="nome_venditore" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQLJAUEemgtMvNtbebZQ" label="phone" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQLZAUEemgtMvNtbebZQ" label="userId" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pNrQLpAUEemgtMvNtbebZQ" label="email" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

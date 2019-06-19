@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:TalendNoSQLMetadata="http://www.talend.org/nosql" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendNoSQLMetadata:NoSQLConnection xmi:id="_RbTqkI95EemKLf-NU18u_Q" name="mongoDB" id="_RbSccI95EemKLf-NU18u_Q" label="mongoDB" dataPackage="_h8AOAI9_EemmcrOv41tvEw" dbType="MONGODB">
+    <attributes xmi:id="_ecBrcJAUEemgtMvNtbebZQ" key="DB_VERSION" value="MONGODB_3_5_X"/>
+    <attributes xmi:id="_ecBrcZAUEemgtMvNtbebZQ" key="HOST" value="localhost"/>
+    <attributes xmi:id="_ecBrcpAUEemgtMvNtbebZQ" key="PORT" value="27017"/>
+    <attributes xmi:id="_ecBrc5AUEemgtMvNtbebZQ" key="DATABASE" value="annunci"/>
+    <attributes xmi:id="_ecBrdJAUEemgtMvNtbebZQ" key="REQUIRED_AUTHENTICATION" value="false"/>
+    <attributes xmi:id="_ecBrdZAUEemgtMvNtbebZQ" key="USERNAME" value=""/>
+    <attributes xmi:id="_ecBrdpAUEemgtMvNtbebZQ" key="PASSWORD" value=""/>
+    <attributes xmi:id="_ecBrd5AUEemgtMvNtbebZQ" key="USE_REPLICA_SET" value="false"/>
+    <attributes xmi:id="_ecCSgJAUEemgtMvNtbebZQ" key="REPLICA_SET" value="[]"/>
+  </TalendNoSQLMetadata:NoSQLConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_h8AOAI9_EemmcrOv41tvEw" name="annunci" dataManager="_RbTqkI95EemKLf-NU18u_Q">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_h8A1EI9_EemmcrOv41tvEw" name="sc_annunci_kijiji" id="_gB1AUI9_EemmcrOv41tvEw" label="sc_annunci_kijiji">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1EY9_EemmcrOv41tvEw" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1Eo9_EemmcrOv41tvEw" name="Column0" label="Column0" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1E49_EemmcrOv41tvEw" name="data" label="data" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1FI9_EemmcrOv41tvEw" name="id" label="id" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1FY9_EemmcrOv41tvEw" name="link" label="link" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1Fo9_EemmcrOv41tvEw" name="paese" label="paese" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1F49_EemmcrOv41tvEw" name="prezzo" label="prezzo" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1GI9_EemmcrOv41tvEw" name="titolo" label="titolo" talendType="id_String"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_h8A1GY9_EemmcrOv41tvEw" name="sc_annunci_subito" id="_gFc8EI9_EemmcrOv41tvEw" label="sc_annunci_subito">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1Go9_EemmcrOv41tvEw" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1G49_EemmcrOv41tvEw" name="Column0" label="Column0" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1HI9_EemmcrOv41tvEw" name="datapaese" label="datapaese" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1HY9_EemmcrOv41tvEw" name="id" label="id" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1Ho9_EemmcrOv41tvEw" name="link" label="link" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1H49_EemmcrOv41tvEw" name="prezzo" label="prezzo" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_h8A1II9_EemmcrOv41tvEw" name="titolo" label="titolo" talendType="id_String"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_h8A1IY9_EemmcrOv41tvEw" name="sc_dettagli_kijiji" id="_gKtPgI9_EemmcrOv41tvEw" label="sc_dettagli_kijiji">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_TcJAWEem7x6UeQAASzw" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_TcZAWEem7x6UeQAASzw" name="Column0" label="Column0" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_TcpAWEem7x6UeQAASzw" name="Comune" label="Comune" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_Tc5AWEem7x6UeQAASzw" name="Marca" label="Marca" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_TdJAWEem7x6UeQAASzw" name="Sito_Web" label="Sito_Web" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_TdZAWEem7x6UeQAASzw" name="Tipologia" label="Tipologia" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_TdpAWEem7x6UeQAASzw" name="descrizione" label="descrizione" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_Td5AWEem7x6UeQAASzw" name="id" label="id" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_TeJAWEem7x6UeQAASzw" name="lat" label="lat" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_TeZAWEem7x6UeQAASzw" name="lon" label="lon" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_TepAWEem7x6UeQAASzw" name="nome_venditore" label="nome_venditore" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_Te5AWEem7x6UeQAASzw" name="phone" label="phone" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_TfJAWEem7x6UeQAASzw" name="userId" label="userId" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_P5_TfZAWEem7x6UeQAASzw" name="email" label="email" talendType="id_String"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_h8A1L49_EemmcrOv41tvEw" name="sc_dettagli_subito" id="_gOSH8I9_EemmcrOv41tvEw" label="sc_dettagli_subito">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RoJAWEem7x6UeQAASzw" name="_id" label="_id" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RoZAWEem7x6UeQAASzw" name="Column0" label="Column0" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RopAWEem7x6UeQAASzw" name="Allestimento" label="Allestimento" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8Ro5AWEem7x6UeQAASzw" name="Anno_immatricolazione" label="Anno_immatricolazione" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RpJAWEem7x6UeQAASzw" name="Cambio" label="Cambio" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RpZAWEem7x6UeQAASzw" name="Carburante" label="Carburante" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RppAWEem7x6UeQAASzw" name="Classe_emissioni" label="Classe_emissioni" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8Rp5AWEem7x6UeQAASzw" name="Comune" label="Comune" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RqJAWEem7x6UeQAASzw" name="Km" label="Km" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RqZAWEem7x6UeQAASzw" name="Locali" label="Locali" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RqpAWEem7x6UeQAASzw" name="Marca" label="Marca" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8Rq5AWEem7x6UeQAASzw" name="Modello" label="Modello" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RrJAWEem7x6UeQAASzw" name="Orario" label="Orario" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RrZAWEem7x6UeQAASzw" name="Partita_IVA" label="Partita_IVA" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RrpAWEem7x6UeQAASzw" name="Porte" label="Porte" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8Rr5AWEem7x6UeQAASzw" name="Posti" label="Posti" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RsJAWEem7x6UeQAASzw" name="Prezzo" label="Prezzo" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RsZAWEem7x6UeQAASzw" name="Sede_di_lavoro" label="Sede_di_lavoro" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RspAWEem7x6UeQAASzw" name="Settore" label="Settore" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8Rs5AWEem7x6UeQAASzw" name="Superficie" label="Superficie" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RtJAWEem7x6UeQAASzw" name="Tipo_di_sport" label="Tipo_di_sport" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RtZAWEem7x6UeQAASzw" name="Tipologia" label="Tipologia" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RtpAWEem7x6UeQAASzw" name="Titolo_di_Studio" label="Titolo_di_Studio" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8Rt5AWEem7x6UeQAASzw" name="date_ad" label="date_ad" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RuJAWEem7x6UeQAASzw" name="descrizione" label="descrizione" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RuZAWEem7x6UeQAASzw" name="id" label="id" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RupAWEem7x6UeQAASzw" name="lat" label="lat" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8Ru5AWEem7x6UeQAASzw" name="lon" label="lon" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RvJAWEem7x6UeQAASzw" name="nome_venditore" label="nome_venditore" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RvZAWEem7x6UeQAASzw" name="phone" label="phone" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8RvpAWEem7x6UeQAASzw" name="userId" label="userId" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ol8Rv5AWEem7x6UeQAASzw" name="email" label="email" talendType="id_String"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_hDtfYJAUEemgtMvNtbebZQ" name="st_annunci_subito" id="_hDYvQJAUEemgtMvNtbebZQ" label="st_annunci_subito">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uLGzoJA5Eem7x6UeQAASzw" name="_id" label="_id" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uLGzoZA5Eem7x6UeQAASzw" name="link" label="link" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uLGzopA5Eem7x6UeQAASzw" name="titolo" label="titolo" talendType="id_String"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_MEqAoJAWEem7x6UeQAASzw" name="st_dettagli_subito" id="_MDm3wJAWEem7x6UeQAASzw" label="st_dettagli_subito">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MEqAoZAWEem7x6UeQAASzw" name="_id" label="_id" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MEqAopAWEem7x6UeQAASzw" name="lat" label="lat" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MEqAo5AWEem7x6UeQAASzw" name="lon" label="lon" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MEqApJAWEem7x6UeQAASzw" name="nome_venditore" label="nome_venditore" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MEqApZAWEem7x6UeQAASzw" name="phone" label="phone" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MEqAppAWEem7x6UeQAASzw" name="userId" label="userId" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MEqAp5AWEem7x6UeQAASzw" name="descrizione" label="descrizione" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MEqAqJAWEem7x6UeQAASzw" name="date_ad" label="date_ad" talendType="id_Date"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MEqAqZAWEem7x6UeQAASzw" name="Comune" label="Comune" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MEqAqpAWEem7x6UeQAASzw" name="Tipologia" label="Tipologia" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MEqAq5AWEem7x6UeQAASzw" name="Prezzo" label="Prezzo" talendType="id_Double"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_34Qr4JAtEem7x6UeQAASzw" name="st_annunci_kijiji" id="_33t5UJAtEem7x6UeQAASzw" label="st_annunci_kijiji">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WqkW8JA4Eem7x6UeQAASzw" name="_id" label="_id" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WqkW8ZA4Eem7x6UeQAASzw" name="link" label="link" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WqkW8pA4Eem7x6UeQAASzw" name="titolo" label="titolo" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WqkW85A4Eem7x6UeQAASzw" name="paese" label="paese" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WqkW9JA4Eem7x6UeQAASzw" name="prezzo" label="prezzo" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_WqkW9ZA4Eem7x6UeQAASzw" name="data" label="data" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_hIeLIJA2Eem7x6UeQAASzw" name="st_dettagli_kijiji" id="_hICtUJA2Eem7x6UeQAASzw" label="st_dettagli_kijiji">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hIeLIZA2Eem7x6UeQAASzw" name="_id" label="_id" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hIeLIpA2Eem7x6UeQAASzw" name="Comune" label="Comune" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hIeLI5A2Eem7x6UeQAASzw" name="Marca" label="Marca" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hIeLJJA2Eem7x6UeQAASzw" name="Sito_Web" label="Sito_Web" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hIeLJZA2Eem7x6UeQAASzw" name="Tipologia" label="Tipologia" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hIeLJpA2Eem7x6UeQAASzw" name="descrizione" label="descrizione" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hIeLJ5A2Eem7x6UeQAASzw" name="lat" label="lat" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hIeLKJA2Eem7x6UeQAASzw" name="lon" label="lon" talendType="id_Double"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hIeLKZA2Eem7x6UeQAASzw" name="nome_venditore" label="nome_venditore" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hIeLKpA2Eem7x6UeQAASzw" name="phone" label="phone" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hIeLK5A2Eem7x6UeQAASzw" name="userId" label="userId" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hIeLLJA2Eem7x6UeQAASzw" name="email" label="email" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>

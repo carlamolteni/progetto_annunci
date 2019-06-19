@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_733-X494EemKLf-NU18u_Q" id="_733XQI94EemKLf-NU18u_Q" label="dettagli_kijiji" version="0.1" statusCode="" item="_734lYY94EemKLf-NU18u_Q" displayName="dettagli_kijiji">
+    <author href="../../talend.project#_DBgI4Y94EemKLf-NU18u_Q"/>
+    <additionalProperties xmi:id="_74BIQI94EemKLf-NU18u_Q" key="created_product_fullname" value="Talend Open Studio for Big Data"/>
+    <additionalProperties xmi:id="_74BIQY94EemKLf-NU18u_Q" key="created_product_version" value="7.2.1.20190228_1114-M3"/>
+    <additionalProperties xmi:id="_74BIQo94EemKLf-NU18u_Q" key="created_date" value="2019-06-15T16:21:58.852+0200"/>
+    <additionalProperties xmi:id="_74BIQ494EemKLf-NU18u_Q" key="modified_product_fullname" value="Talend Open Studio for Big Data"/>
+    <additionalProperties xmi:id="_74BIRI94EemKLf-NU18u_Q" key="modified_product_version" value="7.2.1.20190228_1114-M3"/>
+    <additionalProperties xmi:id="_74BIRY94EemKLf-NU18u_Q" key="modified_date" value="2019-06-16T11:00:34.472+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_734lYI94EemKLf-NU18u_Q" path=""/>
+  <TalendProperties:DelimitedFileConnectionItem xmi:id="_734lYY94EemKLf-NU18u_Q" property="_733-X494EemKLf-NU18u_Q" state="_734lYI94EemKLf-NU18u_Q">
+    <connection href="dettagli_kijiji_0.1.item#_733-UI94EemKLf-NU18u_Q"/>
+  </TalendProperties:DelimitedFileConnectionItem>
+</xmi:XMI>
