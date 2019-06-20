@@ -20,9 +20,16 @@ I due notebook hanno come output due file .csv contenenti gli annunci trovati e 
 
 ### Talend
 
-All'interno della directory Talend sono presenti i file di configurazione relativi ai job Talend utilizzati per la fase di ETL dei dati.
+All'interno della directory Talend sono presenti:
 
-Il risultato finale si compone di due collection MongoDB contenenti ognuna i dati completi relativi a ciascun annuncio di Subito.it e di Kijiji.
+* I file di configurazione relativi ai job Talend utilizzati per la fase di ETL dei dati
+
+* I metadati relativi ai file csv utilizzati
+
+* I metadati relativi alla connessione MongoDB
+
+
+Il risultato finale si compone di due collection MongoDB contenenti ognuna i dati completi relativi a ciascun annuncio di Subito.it e di Kijiji, ed una collection relativa alle anagrafiche.
 
 
 
